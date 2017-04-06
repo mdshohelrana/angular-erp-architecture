@@ -1,2 +1,3 @@
-# angular2-erp-app-architecture
-Large scale application architecture of angular2+, Twitter Bootstrap 4, and more reliable plugin of angular2+.
+# Angular2+ ERP Application Architecture
+When building a large-scale application, one has to carefully design the code structure in the project. A poor structure can lead to maintainability issues and decrease the productivity of the development team. When the system grows, it will be hard to navigate through the structure and locate the class implementing a piece of functionality.
+In this article, we describe the structure of an enterprise system built using Angular 2.
