@@ -1,8 +1,13 @@
 {
-    "name": "angular-jumpstart",
-    "author": "Dan Wahlin",
-    "version": "2.0.0",
-    "repository": "https://github.com/danwahlin/angular-jumpstart",
+    "name": "angular2-erp-app-architecture",
+    "author": "Shohel Rana",
+    "version": "1.0.0",
+    "keywords": [
+        "angular2",
+        "webpack",
+        "typescript"
+    ],
+    "repository": "https://github.com/mdshohelrana/angular2-erp-app-architecture",
     "scripts": {
         "clean": "del-cli \"src/app/**/*.js\" \"src/app/**/*.js.map\" \"src/devDist\" \"src/dist\"",
         "build": "npm run clean && webpack --progress --watch",
@@ -11,7 +16,7 @@
         "start:nodemon": "tsc && concurrently \"tsc -w\" \"nodemon server.js\" ",
         "start": "tsc && concurrently \"tsc -w\" \"node server.js\" "
     },
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "@angular/common": "4.0.0",
         "@angular/compiler": "4.0.0",
@@ -26,7 +31,6 @@
         "@angular/platform-server": "4.0.0",
         "@angular/tsc-wrapped": "4.0.0",
         "@angular/animations": "4.0.0",
-
         "systemjs": "0.19.47",
         "core-js": "2.4.1",
         "rxjs": "5.2.0",
